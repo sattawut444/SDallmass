@@ -1,0 +1,68 @@
+.bgReport {
+    background: url(../img/reports/header.png) no-repeat top center;
+}
+
+.boxTextHeader {
+    padding: 10% 0;
+    padding-bottom: 18%;
+}
+
+.sec01 {
+    padding: 60px 0;
+    background: #f2f6f7 url(../img/reports/bg.png) no-repeat bottom center;
+}
+
+.sec02 {
+    background: #fff;
+    padding-bottom: 100px;
+}
+
+.boxTop {
+    padding: 60px 0;
+    background-color: rgba(243, 246, 247, 0.4);
+}
+
+.boxReport {
+    background: url(../img/reports/boxBg.png) no-repeat center;
+    padding: 60px;
+    height: 530px;
+}
+
+.boxReportText {
+    height: 530px;
+    padding-left: 60px;
+}
+
+.boxBtnOnline {
+    margin-left: 60px;
+}
+
+.boxReportMain {}
+
+.boxReportMain .row-a {
+    padding: 10px;
+    background: #F5F5F7;
+}
+
+.boxReportMain .row-b {
+    padding: 20px;
+    background: #F5F5F7;
+}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1280px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:737px) {}
+
+@media screen and (max-width:560px) {}
+
+@media screen and (max-width:414px) {}
+
+@media screen and (max-width:375px) {}

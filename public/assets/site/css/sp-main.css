@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+html , body { margin:0px; line-height:1.55; font-family:"Tahoma", Geneva, sans-serif; color:#ccc;font-size:14px; min-height:100%; position:relative; }
+body { background:#121212; }
+input , textarea , select { font-family:"Tahoma", Geneva, sans-serif;font-size:14px;  }
+img { border:none;vertical-align:bottom; }
+a {color:#000;text-decoration:none;}
+
+@font-face {
+	font-family: 'Conv_SukhumvitSet-Light';
+	src: url('../fonts/SukhumvitSet-Light.eot');
+	src: local('☺'), url('../fonts/SukhumvitSet-Light.woff') format('woff'), url('../fonts/SukhumvitSet-Light.ttf') format('truetype'), url('../fonts/SukhumvitSet-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Sukhumvit_set';
+	src: url('../fonts/Sukhumvit_set.eot');
+	src: local('☺'), url('../fonts/Sukhumvit_set.woff') format('woff'), url('../fonts/Sukhumvit_set.ttf') format('truetype'), url('../fonts/Sukhumvit_set.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Sukhumvit_set_Medium';
+	src: url('../fonts/Sukhumvit_set_Medium.eot');
+	src: local('☺'), url('../fonts/Sukhumvit_set_Medium.woff') format('woff'), url('../fonts/Sukhumvit_set_Medium.ttf') format('truetype'), url('../fonts/Sukhumvit_set_Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a[href^="tel"]{ color:inherit; text-decoration:none;}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #151d44;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #151d44;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #151d44;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #151d44;
+}
+
+h1, h2, h3, h4, h5, h6, p{ margin:0px; padding:0px;}
+
+
+.sp-header {width:100%; top:0;position:absolute; z-index:9;}
+
+
+.sp-logo {text-align:center;}
+.sp-logo > img{ max-width:100%;}
+
+
+.sp-slider{ padding-top:8%;}
+.sp-slider img.thumb { max-width:100%;}
+
+
+.sp-container { max-width:962px;margin:0px auto;}
+
+.sp-step {max-width:100%;}
+
+.sp-bg-content { background:url(../images/bg.jpg) top center no-repeat;}
+.sp-bg-content .sp-content {padding:10px; background-color:#121212;}
+.sp-bg-content .sp-content .title {padding:0 10px;}
+.sp-bg-content .sp-content .title h1 { font-size:20px; line-height:20px; padding-bottom:10px; border-bottom:1px solid #fffd61;font-family:"Conv_SukhumvitSet-Light", Tahoma, Geneva, sans-serif; margin-bottom:20px; margin-top:10px; color:#fff;}
+.sp-bg-content .sp-content ul {padding:0; margin:0; list-style:none;}
+.sp-bg-content .sp-content ul li {width:16.66%; box-sizing:border-box; float:left; text-align:center; padding:10px;}
+.sp-bg-content .sp-content ul li img { max-width:100%;}
+.sp-bg-content .sp-content ul li img.play { margin-top:10px;}
+
+
+.sp-area {padding:0 20px;}
+
+
+.sp-wel { background:#2a2a2a; padding:30px 0;}
+.sp-wel h2 {font-size:24px; line-height:24px;font-family:"Conv_SukhumvitSet-Light", Tahoma, Geneva, sans-serif; margin-bottom:10px;color:#fff569; text-transform:uppercase;}
+.sp-wel p {font-size:16px; line-height:24px;}
+	
+	
+.sp-footer { background:#121212; padding:10px 0;}
+.sp-footer .col-left { max-width:50%; float:left; box-sizing:border-box; text-align:left;}
+.sp-footer .col-left img {}
+.sp-footer .col-right { max-width:50%; float:right; box-sizing:border-box; text-align:right;}
+.sp-footer .col-right .sp-copyright {font-size:14px; line-height:33px; font-family:"Tahoma", Geneva, sans-serif; color:#fff; text-align:left; margin-top:5px;}
+
+
+.sp-qr { position: fixed;right:0; bottom:3%; z-index:10; max-width:100%;}
+
+
+.sp-clear { clear:both;}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 768px) {
+.sp-qr {width:15%;bottom:5px;}
+}
+
+@media only screen and (max-width: 670px) {
+.sp-qr {width:20%;}
+}
+
+@media only screen and (max-width: 420px) {
+.sp-bg-content .sp-content ul li {width:25%;}
+.sp-footer .col-left { max-width:30%;}
+.sp-footer .col-right { max-width:70%;}
+
+.sp-footer .col-right .sp-copyright {font-size:13px;}
+
+.sp-qr { display:none;}
+}
+
+@media only screen and (max-width: 340px) { 
+
+}

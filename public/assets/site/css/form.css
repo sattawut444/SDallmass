@@ -1,0 +1,47 @@
+body {background:#fff;}
+
+.sp-header-bg {width:100%; height:144px; background: rgb(109,81,44);background: linear-gradient(329deg, rgba(109,81,44,1) 0%, rgba(194,161,110,1) 48%, rgba(185,153,106,1) 100%);}
+
+
+.underline-step { border-bottom:1px dotted #ccc; margin-bottom:20px; padding-bottom:20px;}
+.underline-step-border-none { border:none; margin-bottom:20px; padding-bottom:20px;}
+
+
+.bg-register { text-align: center;}
+
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+.underline-step-border-none {border: none;margin-bottom: 0px; padding-bottom: 0px;}
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+ 
+}

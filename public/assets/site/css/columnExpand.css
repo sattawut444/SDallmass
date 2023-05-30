@@ -1,0 +1,78 @@
+@media (min-width: 992px) {
+  .columnExpandItems {
+    display: flex; } }
+
+.columnExpandItem {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  background-color: #979798;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+  font-family: "webfont4";
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s; }
+  @media (min-width: 992px) {
+    .columnExpandItem {
+      height: 490px; } }
+  .columnExpandItem h2.titleText {
+    font-size: 70px;
+    line-height: 1;
+    /*letter-spacing: 0.05em;*/
+    color: #fff;
+    font-weight: normal; }
+    @media (max-width: 991px) {
+      .columnExpandItem h2.titleText {
+        font-size: 50px; } }
+    .columnExpandItem h2.titleText span {
+      font-size: 22px;
+      line-height: 38px; color:#fff; }
+      @media (min-width: 992px) {
+        .columnExpandItem h2.titleText span {
+          display: block; } }
+      @media (max-width: 991px) {
+        .columnExpandItem h2.titleText span {
+          display: inline-block;
+          vertical-align: middle; } }
+  .columnExpandItem .descWrap {
+    height: 0;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    display: flex;
+    align-items: center;
+    overflow: hidden; }
+  .columnExpandItem .desc {
+    padding: 20px 0 30px;
+    font-size: 16px;
+    line-height: 1.2;
+    width: 100%; }
+  .columnExpandItem picture {
+    display: inline-block; }
+    @media (max-width: 991px) {
+      .columnExpandItem picture {
+        position: absolute;
+        right: 35px;
+        top: 30px; } }
+    @media (max-width: 991px) {
+      .columnExpandItem picture img {
+        width: 34px;
+        height: auto; } }
+  .columnExpandItem:nth-child(odd) {
+    background-color: #b2b2b2; }
+  .columnExpandItem.isDiff .titleText {
+    font-size: 40px; }
+  .columnExpandItem.active {
+    background-color: #a40604;
+    background-image: url(../img/home/bg-text.png); }
+    @media (min-width: 992px) {
+      .columnExpandItem.active {
+        width: 220%; } }
+    .columnExpandItem.active .descWrap {
+      height: 180px;
+      opacity: 1; }

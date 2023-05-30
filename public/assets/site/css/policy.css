@@ -1,0 +1,51 @@
+.bgPolicy {
+    background: url(../img/policy/header.png) no-repeat top center;
+}
+
+.boxTextHeader {
+    padding: 10% 0;
+    padding-bottom: 18%;
+}
+
+.sec01 {
+    padding: 60px 0;
+    background: #f2f6f7 url(../img/policy/bg.png) no-repeat bottom center;
+}
+
+.boxPolicy {
+    border: 2px solid #04163A;
+    background: #fff;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.boxPolicyDownload {
+    background: #F4F4F4;
+    border-radius: 0 20px 20px 0;
+}
+
+.boxLeft {
+    width: 75%;
+}
+
+.boxRight {
+    width: 25%;
+}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1280px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:737px) {}
+
+@media screen and (max-width:560px) {}
+
+@media screen and (max-width:414px) {}
+
+@media screen and (max-width:375px) {}

@@ -1,0 +1,47 @@
+.sp-pc { display:block;}
+.sp-mobi { display:none;}
+
+.fullpageSectionInner {
+    padding-bottom:0px;
+}
+
+.about-mg { padding:40px 0;}
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+.sp-pc { display:none;}
+.sp-mobi { display:block;}
+.about-mg { padding:0;}
+.fullpageSectionInner {padding-top:0;}
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+ 
+}

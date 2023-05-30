@@ -1,0 +1,40 @@
+.wapper-row .col-right {width:100%;}
+.wapper-row .col-right .box-product ul li {width:14.28571428571429%;}
+.wapper-row .col-right .box-product ul li:nth-child(5n+0) .box-area { border-right: 0px dotted #ddd;}
+.wapper-row .col-right .box-product ul li:nth-child(7n+0) .box-area { border-right: 1px dotted #ddd;}
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

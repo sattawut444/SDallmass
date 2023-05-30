@@ -1,0 +1,104 @@
+.nav-tabs {
+    font-family: 'webfont4';
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto 30px;
+    border: 0;
+    padding-left: 0;
+    list-style: none;
+    .nav-item {
+        padding: 0 2px;
+        min-width: 20%;
+        text-align: center;
+        margin: 0;
+        .nav-link {
+            padding: 0.5rem 1rem;
+            border: 0;
+            border-radius: 0;
+            display: block;
+            background: #ececec;
+            color: #221e1f;
+            position: relative;
+            &:before {
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 50%;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 6px 6px 6px;
+                border-color: transparent transparent #fff transparent;
+                margin-left: -6px;
+                opacity: 0;
+            }
+            &.active {
+                background: #ee2d24;
+                color: #fff;
+                &::before {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.tab-content {
+    margin-bottom: 30px;
+
+    & > .tab-pane {
+        display: none;
+    }
+    
+    & > .active {
+        display: block;
+    }
+  
+}
+.tab {
+    &Title {
+        font-family: 'webfont3';
+        padding: 10px 30px;
+        background: #666666;
+        color: #fff;
+        @media screen and (max-width:768px) {
+            padding: 10px 15px;
+        }
+    }
+    &Detail {
+        background: #ececec;
+        font-size: 0.9em;
+        padding: 15px 30px;
+
+        .title {
+            font-family: 'webfont3';
+            color: #4a4849;
+            border-bottom: 1px solid #969696;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .p {
+            padding: 15px 30px;
+            p {
+                margin: 15px 0;
+            }
+        }
+        a:not(.btn) {
+            font-family: 'webfont4';
+            color: #6a9bc6;
+        }
+        ul {
+            padding: 0 0 0 20px;
+            margin: 0 0 15px;
+
+        }
+        @media screen and (max-width:768px) {
+            padding: 15px 15px;
+            .p {
+                padding: 0 15px;
+            }
+        }
+    }
+}

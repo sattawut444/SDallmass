@@ -1,0 +1,260 @@
+/**************** Nav ****************/
+
+.navbar {
+    background: $main;
+    padding: 0 10px;
+    transition: all 500ms linear;
+    @media (min-width: 768px) {
+        padding: 0 15px;
+        max-width: 1366px;
+        margin: 0 auto;
+    }
+    .navbar-brand {
+        padding: 10px 0;
+        z-index: 999;
+        img {
+            height: 35px;
+        }
+        @media (min-width: 768px) {
+            padding: 15px 0;
+            img {
+                height: 40px;
+            }
+        }
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+        width: 100%;
+        &:before {
+            display: none;
+        }
+        .nav-item {
+            width: 100%;
+            text-align: center;
+            padding: 5px 15px;
+            .nav-link {
+                text-transform: capitalize;
+                transition: all 0.5s;
+                color: $white;
+                padding: 5px 0;
+                @media (min-width: 768px) and (max-width: 992px) {
+                    font-size: 0.85em;
+                }
+            }
+            .nav-text {
+                color: $white;
+                display: inline-block;
+                transition: all 0.5s;
+                padding: 5px 0;
+                @media (min-width: 768px) and (max-width: 992px) {
+                    font-size: 0.85em;
+                }
+            }
+            &.active {
+                background: $white;
+                .nav-link {
+                    color: $main;
+                    outline: none;
+                } 
+            }
+            &:hover,
+            &:focus {
+                .nav-link {
+                    outline: none;
+                }
+            }
+        }
+        @media (min-width: 768px) {
+            justify-content: space-around;
+            align-items: center;
+            .nav-item {
+                flex: 0 auto;
+                width: auto;
+                padding: 0;
+                text-align: left;
+                .nav-link {
+                    padding: 0 0 3px;
+                    color: $white;
+                    position: relative;
+                    &:before {
+                        position: absolute;
+                        content: '';
+                        display: block;
+                        width: 0;
+                        height: 1px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 0;
+                        background: $white;
+                        transition: all 0.5s;
+                        // max-width: 50px;
+                    }
+                }
+                .nav-text {
+                    padding: 0 0 3px;
+                }
+                &.show,
+                &.active,
+                &:hover {
+                    background: transparent;
+                    .nav-link {
+                        color: $white;
+                    }
+                    .nav-link:before {
+                        width: 100%;
+                        // max-width: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logo-wrap {
+    img {
+        height: 40px;
+        transition: all 300ms linear;
+        @media (min-width: 768px) {
+            height: 80px;
+        }
+    }
+}
+
+.cd-primary-nav-trigger {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+    display: block;
+    @media (min-width: 768px) {
+        top: 30px;
+    }
+    .cd-menu-icon {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        bottom: auto;
+        left: auto;
+        transform: translate(0%, -50%);
+        width: 30px;
+        height: 5px;
+        background-color: $white;
+        border-radius: 0;
+        transition: all 300ms linear;
+        &:before,
+        &:after {
+            content: '';
+            width: 30px;
+            height: 100%;
+            position: absolute;
+            background-color: $white;
+            transition: all 300ms linear;
+        }
+        &:after {
+            // right: 0px;
+            top: 10px;
+        }
+        &:before {
+            // right: 0px;
+            top: -10px;
+        }
+        &.is-clicked {
+            background-color: rgba(255, 255, 255, 0);
+            &:before,
+            &:after {
+                width: 30px;
+                background-color: $white;
+            }
+            &:before {
+                top: 0;
+                transform: rotate(135deg);
+            }
+            &:after {
+                top: 0;
+                transform: rotate(225deg);
+            }
+        }
+    }
+    &:hover {
+        .cd-menu-icon {
+            width: 30px;
+        }
+    }
+}
+
+// header
+.cd-header {
+    background: $main;
+    // position: fixed;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    height: 55px;
+    width: 100%;
+    transition: all 300ms linear;
+    z-index: 900;
+    @media (min-width: 768px) {
+        height: 70px;
+    }
+    .navbar.fixed-top {
+        background: transparent;
+        @media (min-width: 768px) {
+            height: 80px;
+            .logo-wrap img {
+                height: 40px;
+            }
+            .cd-primary-nav-trigger {
+                top: 20px;
+            }
+        }
+    }
+    .cd-nav {
+        margin-right: 0px;
+        margin-left: auto;
+        // overflow: hidden;
+        transition: all 0.5s ease;
+        @media (max-width: 767px) {
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: -100vh;
+            bottom: auto;
+            display: block;
+        }
+        @media (min-width: 768px) {
+            // margin-right: -100vw;
+            opacity: 1;
+            // width: 0;
+            // flex: 0;
+        }
+    }
+    &.menu-is-open {
+        .cd-nav {
+            @media (max-width: 767px) {
+                top: 0;
+                bottom: 0;
+                background: rgba(0,12,46, 0.85);
+                padding: 60px 15px 60px;
+                z-index: 900;
+                .navbar-nav {
+                    position: absolute;
+                    top: 60px;
+                    left: 0;
+                    bottom: 75px;
+                    width: 100%;
+                    overflow: auto;
+                }
+            }
+            @media (min-width: 768px) {
+                margin-right: 50px;
+                opacity: 1;
+                // width: auto;
+                // flex: auto;
+            }
+        }
+    }
+}

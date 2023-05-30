@@ -1,0 +1,49 @@
+body, html { height: 100%; margin: 0;}
+
+.about-menu { width:100%; position:absolute; bottom:20px;}
+.about-menu ul {padding:0; margin:0; list-style:none; display: flex;flex-wrap: wrap; position:relative; z-index:1;}
+.about-menu ul li { text-align:center;padding:7px; width:16.66666666666667%;}
+.about-menu ul li a { font-family: 'webfont4'; font-size:16px; line-height:16px; color:#7f8083; font-weight:normal; letter-spacing:1px; -webkit-transition:ease-out 0.2s; transition:ease-out 0.2s;}
+.about-menu ul li a:hover {color:#eee; -webkit-transition:ease-out 0.2s; transition:ease-out 0.2s;}
+.about-menu ul li a.active {color:#eee;}
+.about-menu ul li a div.fix-text { height:20px;}
+.about-menu ul li a div.number { background:#ee2d24; width:12px; height:12px; border-radius:50%; font-size:0; margin:0 auto; margin-top:17px; -webkit-transition:ease-out 0.2s; transition:ease-out 0.2s;}
+.about-menu ul li a:hover div.number { width:40px; height:40px; font-size:16px; line-height:40px; color:#FFF; margin:0 auto; margin-top:5px;-webkit-transition:ease-out 0.2s; transition:ease-out 0.2s;}
+.about-menu ul li a div.number.active-num { background:#ee2d24; width:40px; height:40px; border-radius:50%;  font-size:16px; color:#FFF; line-height:40px; margin:0 auto; margin-top:5px;}
+.about-menu .line-dot {width:83%; margin:0 auto; position: relative; bottom:30px; border-bottom:2px #ee2d24 dotted;}
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

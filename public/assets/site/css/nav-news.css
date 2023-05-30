@@ -1,0 +1,66 @@
+body { background:#efefef;}
+
+
+.sp-header { background: url(../img/news/header.jpg) no-repeat top center; text-align:center; padding:120px 0; background-position-y:-450px;}
+.sp-header h1 {font-family: 'webfont1'; font-size:46px; line-height:46px; color:#fff; font-weight:normal; letter-spacing:1px;}
+
+.sec04 { margin-top:-25px; margin-bottom:100px; position:relative; margin-bottom:50px;}
+.sp-container.white { background:#fff;}
+
+
+ul.nav-category { list-style:none; padding:0; margin:0; display: flex;flex-wrap: wrap; align-items: baseline;}
+ul.nav-category li { border-right:1px #fff solid; width:33.33%;}
+ul.nav-category li:last-child { border-right:none;}
+ul.nav-category li a button { font-family: 'webfont2'; font-size:16px; line-height:16px; font-weight:normal; color:#fff; letter-spacing:1px; background:#ababab; border:none; padding:18px 0; width:100%; cursor:pointer; -webkit-transition:ease-out 0.2s; transition:ease-out 0.2s;}
+ul.nav-category li a:hover button { color:#fff; background:#ee2d24; -webkit-transition:ease-out 0.2s; transition:ease-out 0.2s;}
+ul.nav-category li a.active button { color:#fff; background:#ee2d24;}
+
+ul.sp-nav { list-style:none; padding:0; margin:0; display: flex;flex-wrap: wrap; align-items: baseline; justify-content: flex-start; padding-left:40px; padding-top:20px;}
+ul.sp-nav li {  margin:0 1px; width:auto;}
+ul.sp-nav li::after {content: ">"; font-family: 'webfont2'; font-weight:normal; color:#666; letter-spacing:1px; font-size:12px;}
+ul.sp-nav li.none::after {content: none;}
+ul.sp-nav li a { font-family: 'webfont2'; font-size:12px; line-height:16px; font-weight:normal;letter-spacing:1px; color:#666; padding:2px 5px; cursor:pointer;}
+ul.sp-nav li a:hover { color:#ee2d24;}
+
+
+
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+.sp-header {  background-size: 100%; background-position-y: -197px;}
+ul.sp-nav { padding-left: 20px;}
+}
+
+@media screen and (max-width:768px) {
+.sp-header { background-position-y: -138px;}
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+.sp-header { padding: 107px 0;  background-position-y:0px;}
+.sp-header h1 { font-size: 34px; line-height: 34px;}
+ul.nav-category li { border-right:none;border-bottom: 1px #fff solid;width: 100%;}
+ul.nav-category li a button {padding: 13px 0;}
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

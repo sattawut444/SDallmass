@@ -1,0 +1,102 @@
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input.radioBtn {
+    -webkit-appearance: radio;
+}
+
+input.formEmail {
+    border: 1px solid #999;
+    background: #fff;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    border: 1px solid #999;
+    background: #fff;
+    height: 150px;
+    width: 700px;
+    padding: 10px;
+    resize: none;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+
+.boxFormEmail {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.tabTitle {
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.tabTitle span {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.text-gray {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #666;
+}
+
+.text-red {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.text-black {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.btn {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+
+.rowFormRadio {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.rowFormRadio input {
+    margin-right: 20px;
+}
+
+.boxFooter {
+    text-align: center;
+    padding: 40px 0;
+}
+
+@media screen and (max-width:768px) {
+    textarea {
+        width: 500px;
+    }
+    .boxFormEmail {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    textarea {
+        width: 280px;
+    }
+    .tabDetail .p {
+        padding: 0;
+    }
+}

@@ -1,0 +1,31 @@
+/**************** Homepage ****************/
+.HomePage {
+    
+    .sec1 { 
+        text-align:center; 
+        margin-top:40px; 
+        margin-bottom:40px;
+        
+    }
+
+    .sp-title {
+        margin: 90px 0;
+    }
+
+    .tab-content {
+        margin: 0;
+    }
+
+    .sec3,
+    .sec5 {
+        .col-l {
+            background: #f7f7f7;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .sp-title {
+            margin: 45px 0;
+        }
+    }
+}

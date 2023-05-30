@@ -1,0 +1,73 @@
+.product-servie-content {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 48px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0px;
+}
+
+.product-service__image {
+    width: 240px;
+    margin: 0px auto;
+}
+
+.product-service__image img {
+    width: 100%;
+}
+
+.product-servie-content h2 {
+    margin: 0px 0px 20px 0px !important;
+    color: #666666;
+    font-weight: 700;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.product-servie-content h3 {
+    margin: 0px 0px 20px 0px !important;
+    color: #666666;
+    font-weight: 700;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact img {
+    max-width: 140px;
+}
+
+.contact img:last-child {
+    height: 36.2px;
+}
+
+.product-servie-bottom {
+    max-width: 1190px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+.product-servie-bottom h3 {
+    margin-top: 40px !important;
+    color: #333333;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+}
+
+.back a {
+    margin-top: 60px;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-family: 'Noto Sans Thai', sans-serif;
+    border-radius: 25px;
+    background-color: #00B7AF;
+}

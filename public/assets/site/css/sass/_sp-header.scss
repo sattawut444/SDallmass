@@ -1,0 +1,30 @@
+.sp-header {
+    h1 { 
+        font-family: 'webfont3';
+        font-size:36px; 
+        line-height:46px; 
+        color:#211d1e; 
+        font-weight:normal; 
+        letter-spacing:1px;
+        span { 
+            color:#ee2d24; 
+            &.a {
+                display: block;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+    @media screen and (max-width: 560px) {
+        h1 {
+            font-size: 36px;
+            line-height: 36px;
+        }
+    }
+}

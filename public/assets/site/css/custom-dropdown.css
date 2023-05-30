@@ -1,0 +1,130 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-container {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.wrapper-dropdown {
+    /* Size & position */
+    font-family: 'WebFont', tahoma;
+    position: relative;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 36px;
+    padding: 12px 15px;
+    color: #11145b;
+    /* Styles */
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown:after {
+    /* Little arrow */
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #333 transparent;
+}
+
+.dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* Styles */
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+}
+
+.dropdown li {
+    padding: 0 15px;
+}
+
+.dropdown li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'WebFont', tahoma;
+    color: #11145b;
+    font-size: 26px;
+    line-height: 36px;
+    padding: 10px 0;
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid #e6e8ea;
+}
+
+.dropdown li:last-of-type a {
+    border: none;
+}
+
+.dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle;
+}
+
+
+/* Hover state */
+
+.dropdown li:hover a {
+    color: #11145b;
+}
+
+
+/* Active state */
+
+.dropdown-container.active .wrapper-dropdown {
+    border-radius: 5px 5px 0 0;
+    box-shadow: none;
+    border-bottom: none;
+    color: white;
+}
+
+.dropdown-container.active .dropdown {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    max-height: 400px;
+}
+
+
+/* No CSS3 support */
+
+.no-opacity .wrapper-dropdown .dropdown,
+.no-pointerevents .wrapper-dropdown .dropdown {
+    display: none;
+    opacity: 1;
+    /* If opacity support but no pointer-events support */
+    pointer-events: auto;
+    /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity .dropdown-container.active .dropdown,
+.no-pointerevents .dropdown-container.active .dropdown {
+    display: block;
+}

@@ -1,0 +1,623 @@
+    .aboutBg {
+        background: #f3fafb url(../img/about/bg-top.png) no-repeat top center;
+    }
+    
+    .aboutBg02 {
+        background: #f1f8fa url(../img/about/about02-bgTop.png) no-repeat top center;
+    }
+    
+    .textGradient.textTop {
+        font-size: 160px;
+        line-height: 160px;
+        width: 316px;
+        margin: 0 auto;
+    }
+    
+    .textSub {
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 700;
+        color: #000;
+    }
+    
+    .textLink.green {
+        font-weight: 700;
+        color: #00B7AF;
+    }
+    
+    .textLink.ori {
+        font-weight: 700;
+        color: #FFA412;
+    }
+    
+    .textLink.gray {
+        font-weight: 700;
+        color: #666;
+    }
+    
+    .textSub.subAbout {
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 700;
+        color: #00B7AF;
+    }
+    
+    .textGradient.topSearch {
+        padding: 7% 0;
+    }
+    
+    .textBody.about {
+        font-size: 20px;
+        line-height: 28px;
+        color: #000;
+    }
+    
+    .boxG01 {
+        border: 10px solid transparent !important;
+        border-radius: 25px !important;
+        padding: 40px;
+        margin-top: 20%;
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #000;
+        width: 70%;
+        text-align: left;
+        position: relative;
+    }
+    
+    .boxG01.boxSec2 {
+        margin-top: 8%;
+        margin-left: 15%;
+        width: 55%;
+    }
+    
+    .bgG02 {
+        background: url(../img/about/bgG02.png) no-repeat bottom left;
+    }
+    
+    .boxInner {
+        padding-right: 26%;
+    }
+    
+    .boxInner.G02 {
+        padding-right: 5%;
+        padding-left: 13%;
+        padding-bottom: 5%;
+    }
+    
+    .g01 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .g02 {
+        position: absolute;
+        left: -235px;
+        bottom: 0;
+    }
+    
+    .g001 {
+        position: absolute;
+        right: -10px;
+        bottom: -12px;
+    }
+    
+    .g002 {
+        position: absolute;
+        right: -210px;
+        bottom: -10px;
+    }
+    
+    .g0002 {
+        position: absolute;
+        right: 110px;
+        bottom: 0px;
+    }
+    
+    .icon01 {
+        position: absolute;
+        left: -20px;
+        top: -20px;
+    }
+    
+    .icon02 {
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+    }
+    
+    .rowSec1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .rowSec1 .col-r {
+        width: 60%;
+    }
+    
+    .rowSec1 .col-l {
+        width: 40%;
+    }
+    
+    .rowSec2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .rowSec2 .col-r {
+        order: 2;
+        width: 60%;
+    }
+    
+    .rowSec2 .col-l {
+        order: 1;
+        width: 40%;
+    }
+    
+    .innerBox {
+        padding-right: 40px;
+    }
+    
+    .innerBox.sec2 {
+        padding-left: 40px;
+    }
+    
+    .rowLine {
+        position: relative;
+        width: 65%;
+        margin: 0 auto;
+    }
+    
+    .rowLine .colLine1 {
+        height: 60px;
+        border-right: #B6B6B6 2px dashed;
+    }
+    
+    .rowLine .colLine2 {
+        border-top: #B6B6B6 2px dashed;
+    }
+    
+    .rowLine .colLine3 {
+        height: 60px;
+        border-left: #B6B6B6 2px dashed;
+    }
+    
+    .rowLine .colLine1.a2 {
+        height: 60px;
+        border-left: #B6B6B6 2px dashed;
+        border-right: none;
+    }
+    
+    .rowLine .colLine3.a2 {
+        height: 60px;
+        border-right: #B6B6B6 2px dashed;
+        border-left: none;
+    }
+    
+    .box1 {
+        padding: 30px;
+        box-shadow: #ccc 2px 2px 20px;
+        border-radius: 15px;
+        height: 45vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        background: #fff;
+    }
+    
+    .box1 img {
+        max-width: 80%;
+    }
+    
+    .box2 {
+        padding: 40px;
+        box-shadow: #ddd 2px 2px 10px;
+        border-radius: 5px;
+        background: #fff;
+        height: 14vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .box3 {
+        padding: 40px;
+        box-shadow: #ccc 2px 2px 20px;
+        border-radius: 15px;
+        height: 35vh;
+        background: #fff;
+    }
+    
+    .picAbout {
+        margin-top: auto;
+    }
+    
+    .box1 img.a {
+        max-width: 60%;
+        margin-top: -40px;
+    }
+    
+    .footerAbout {
+        background: url(../img/about/footer-about.png) no-repeat bottom center;
+        padding-bottom: 500px;
+    }
+    
+    .rowAppbg {
+        margin-top: -160px;
+    }
+    
+    .brNone {}
+    
+    .picTextTop {
+        text-align: center;
+        padding-right: 10%;
+        padding-top: 2%;
+        width: 55%;
+    }
+    
+    .boxTextAbout {
+        width: 30%;
+    }
+    
+    .boxAbout02 {
+        padding-top: 25%;
+    }
+    
+    .boxB {
+        padding: 10px;
+        background: #fff;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: -80px;
+        text-align: center;
+    }
+    
+    .ListAboutInner {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+    
+    .ListAboutInner li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .ListAboutInner li img {
+        margin-right: 10px;
+    }
+    
+    .picInfo02 {
+        text-align: center;
+        margin-top: -11%;
+    }
+    
+    .boxInfo01 {
+        background: url(../img/about/about02-bgInfo03.png) no-repeat bottom center;
+        padding-bottom: 40px;
+    }
+    
+    .boxMainModel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .colMain {
+        width: 30%;
+    }
+    
+    .colModel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+    
+    .colModel.start {
+        justify-content: flex-start;
+    }
+    
+    .colModel.spaceBetween {
+        justify-content: space-between;
+    }
+    
+    .colModel.modelCenter {
+        width: 40%;
+    }
+    
+    .colModel img {
+        margin: 0 20px;
+    }
+    
+    .accordion {
+        --bs-accordion-bg: none;
+        --bs-accordion-border-width: 0px;
+        --bs-accordion-btn-padding-x: 0;
+        --bs-accordion-btn-padding-y: 0;
+        --bs-accordion-btn-focus-border-color: none;
+        --bs-accordion-btn-focus-box-shadow: none;
+        --bs-accordion-body-padding-x: 0;
+        --bs-accordion-body-padding-y: 0;
+        --bs-accordion-active-color: none;
+        --bs-accordion-active-bg: none;
+        --bs-accordion-btn-icon: url(../img/about/arrowDown.png);
+        --bs-accordion-btn-active-icon: url(../img/about/arrowDown.png);
+        --bs-accordion-btn-icon-width: 0.80rem;
+    }
+    
+    .accordion-button::after {
+        margin-left: 10px;
+        color: #f00;
+    }
+    
+    .picInfo01 {
+        display: block;
+    }
+    
+    .picInfo {
+        display: block;
+    }
+    
+    .mobiPicInfo01 {
+        display: none;
+    }
+    
+    .mobiPicInfo {
+        display: none;
+    }
+    
+    @media screen and (max-width:1440px) {
+        .brNone {
+            display: none;
+        }
+        .box1 {
+            height: 51vh;
+        }
+        .aboutBg02 {
+            background-position-x: -64px;
+        }
+        .g01 {
+            max-width: 30%;
+        }
+    }
+    
+    @media screen and (max-width:1366px) {
+        .g01 {
+            right: -30px;
+            max-width: 33%;
+        }
+        .g02 {
+            left: -250px;
+        }
+        .textSub.subAbout {
+            font-size: 30px;
+            line-height: 44px;
+        }
+        .box3 {
+            padding: 20px;
+        }
+        .picInfo02 {
+            margin-top: -8%;
+        }
+        .arrowModel {
+            max-width: 64px;
+        }
+        .boxTextAbout {
+            margin-top: 7%;
+        }
+    }
+    
+    @media screen and (max-width:1280px) {
+        .box1 {
+            height: 58vh;
+            padding: 20px;
+        }
+        .picInfo02 {
+            margin-top: -5%;
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+        .boxG01 {
+            width: 100%;
+        }
+        .aboutBg {
+            margin-top: 0;
+        }
+        .g01 {
+            right: -52px;
+            width: 37%;
+        }
+        .boxG01.boxSec2 {
+            width: 75%;
+        }
+        .bgG02 {
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+        .boxTextAbout {
+            width: 48%;
+            margin-top: 13%;
+        }
+        .aboutBg02 {
+            margin-top: 0;
+        }
+        .box3 {
+            height: 45vh;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .aboutBg02 {
+            background-size: 100%;
+            background-position-x: 0;
+        }
+        .picTextTop {
+            padding-right: 5%;
+        }
+        .boxAbout02 {
+            padding-top: 10%;
+        }
+        .box3 {
+            height: 27vh;
+            margin-top: 20%;
+        }
+        .brNone {
+            display: none
+        }
+        .boxMainModel {
+            flex-wrap: wrap;
+        }
+        .colModel.modelCenter {
+            width: 70%;
+            margin: 0 auto;
+            order: 1;
+        }
+        .colMain.modelLeft {
+            width: 100%;
+            order: 2;
+        }
+        .colMain.modelRight {
+            width: 100%;
+            order: 3;
+        }
+        .arrowModel {
+            display: none
+        }
+        .colModel {
+            padding: 10px 0;
+        }
+        .picTextTop {
+            padding-right: 0;
+            margin: 0 auto;
+            padding-top: 6%;
+            width: 100%;
+        }
+        .boxTextAbout {
+            width: 100%;
+            margin-top: 13%;
+        }
+        .textGradient.textTop {
+            font-size: 126px;
+        }
+        .boxG01.boxSec2 {
+            width: 84%;
+            margin-left: 8%;
+        }
+        .innerBox {
+            padding-right: 0px;
+        }
+        .rowSec1 {
+            flex-wrap: wrap;
+            margin-bottom: 7%;
+        }
+        .rowSec1 .col-r {
+            width: 100%;
+            order: 2;
+        }
+        .rowSec1 .col-l {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+            order: 1;
+        }
+        .rowSec2 {
+            flex-wrap: wrap;
+            margin-bottom: 7%;
+        }
+        .rowSec2 .col-r {
+            width: 100%;
+            order: 2;
+        }
+        .rowSec2 .col-l {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+            order: 1;
+        }
+        .innerBox.sec2 {
+            padding-left: 0px;
+        }
+        .rowLine {
+            display: none;
+        }
+        .box1 {
+            height: 39vh;
+        }
+        .textGradient.topSearch {
+            padding-top: 14%;
+        }
+    }
+    
+    @media screen and (max-width:737px) {
+        .picInfo01 {
+            display: none;
+        }
+        .picInfo {
+            display: none;
+        }
+        .mobiPicInfo01 {
+            display: block;
+        }
+        .mobiPicInfo {
+            display: block;
+        }
+        .box3 {
+            height: 32vh;
+        }
+        .rowAppbg {
+            margin-top: -80px;
+        }
+        .boxG01 {
+            padding: 30px;
+        }
+        .textLink {
+            font-size: 20px;
+        }
+        .boxInner {
+            padding-right: 0;
+        }
+        .boxInner.G02 {
+            padding-right: 0;
+            padding-left: 0;
+            padding-bottom: 5%;
+        }
+        .g02 {
+            display: none;
+        }
+        .g002 {
+            display: none;
+        }
+        .g0002 {
+            display: none;
+        }
+        .g01 {
+            display: none;
+        }
+        .box2 {
+            padding: 20px;
+            height: auto;
+        }
+        .pic-footer {
+            display: none;
+        }
+        .colModel.modelCenter {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width:560px) {}
+    
+    @media screen and (max-width:414px) {}
+    
+    @media screen and (max-width:375px) {}

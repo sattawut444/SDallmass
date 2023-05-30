@@ -1,0 +1,68 @@
+.tag-red { font-family: 'webfont2'; font-size:14px; line-height:24px; color:#fff; font-weight:normal; letter-spacing:1px; background:#ea2c35; padding:0 5px; text-align:center; border:none;}
+
+.box-detail { padding:60px 160px; overflow:hidden;}
+.box-detail h2 { font-family: 'webfont1'; font-size:22px; line-height:26px; color:#1f1e1f; font-weight:normal; letter-spacing:1px; margin-bottom:20px;}
+.box-detail p { font-family: 'webfont2'; font-size:16px; line-height:26px; color:#666; font-weight:normal; letter-spacing:1px; }
+.box-detail img { max-width:100%;}
+
+.regular { margin-top:20px;}
+.regular .sp-slider { text-align:center;}
+.regular .sp-slider img { max-width:100%;}
+
+.slick-dotted.slick-slider { margin-bottom:20px;}
+
+.sp-row {display: flex; flex-flow: row wrap; margin-top:80px;}
+.sp-row .col-l { width:30%;}
+.sp-row .col-r {width:70%;}
+.sp-row .col-r ul {list-style:none; padding:0; margin:0; display: flex;flex-wrap: wrap; align-items: baseline; justify-content: flex-end;}
+.sp-row .col-r ul li {font-family: 'webfont2'; font-size:14px; line-height:14px; color:#1f1e1f; font-weight:normal; letter-spacing:1px; margin-right:10px;}
+.sp-row .col-r ul li.a { border-right:1px #1f1e1f solid; padding-right:10px;}
+.sp-row .col-r ul li span { color:#ee2d24;}
+
+
+@media screen and (max-width:1440px) {
+.box-detail { padding: 60px 80px;}
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+.box-detail { padding: 60px;}
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+.box-detail { padding: 40px;}
+.sp-row .col-l { width: 20%;}
+.sp-row .col-r { width: 80%;}
+}
+
+@media screen and (max-width:737px) {
+.box-detail { padding: 20px;}
+}
+
+@media screen and (max-width:560px) {
+.slick-dots { bottom: 5px;}
+.sp-row .col-l { width: 100%;}
+.sp-row .col-r { width: 100%;}
+
+.sp-row { margin-top: 40px;}
+.sp-row .col-r ul { justify-content: flex-start; margin-top: 10px;}
+.sp-row .col-r ul li {  width: 100%; margin-top: 10px; margin-right: 0;}
+.sp-row .col-r ul li.a {  border-right:none; padding-right: 10px;}
+.btn-more { width:100%;}
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

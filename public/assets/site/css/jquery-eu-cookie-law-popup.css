@@ -1,0 +1,168 @@
+.clearfix {
+	clear: both;
+}
+
+.eupopup-container {
+	font-family: 'webfont4';
+	background: rgb(238,45,36,0.8);
+	color: #eee;
+	padding: 24px 20%;
+	font-size: 14px;
+	font-weight:normal;
+	text-align: left;
+	display: none;
+	z-index: 9999999;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.eupopup-container-top,
+.eupopup-container-fixedtop {
+	position: fixed;
+	bottom: 0; left: 0; right: 0;
+}
+
+.eupopup-container-fixedtop {
+	position: fixed;
+}
+
+.eupopup-container-bottom {
+	position: fixed;
+	bottom: 0; left: 0; right: 0;
+}
+
+.eupopup-container-bottomleft {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 300px;
+}
+
+.eupopup-container-bottomright {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 300px;
+}
+
+.eupopup-closebutton {
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 1;
+	color: #fff;
+	/*filter: alpha(opacity=20);*/
+	position: absolute;
+	top: 0; right: 0;
+	padding: 5px 10px;
+}
+.eupopup-closebutton:hover,
+.eupopup-closebutton:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+.eupopup-head {
+	font-size: 22px;
+	font-weight: normal;
+	padding: 7px;
+	color: #fff;
+	display:none;
+}
+
+.eupopup-body {
+	color: #fff;
+	font-weight:normal;
+}
+
+.eupopup-buttons {
+	padding: 7px 0 5px 0;
+	display:flex;
+	align-items:center;
+}
+
+.eupopup-button_1 {
+	color: #fff;
+	font-weight: normal;
+	font-size: 14px;
+	background:#7f8083;
+	padding:5px 40px;
+	order:2;
+}
+
+.eupopup-button_2 {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 14px;
+	order:1;
+}
+
+.eupopup-button {
+	margin: 0 10px;
+}
+
+.eupopup-button:hover,
+.eupopup-button:focus {
+	text-decoration: underline;
+	color: #fff;
+}
+
+body .eupopup-color-inverse {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+body .eupopup-color-inverse .eupopup-head {
+	color: #000;
+}
+
+body .eupopup-style-compact {
+	text-align: left;
+	padding: 8px 30px 7px 20px;
+	line-height: 15px;
+}
+
+body .eupopup-style-compact .eupopup-head,
+body .eupopup-style-compact .eupopup-body,
+body .eupopup-style-compact .eupopup-buttons {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+body .eupopup-style-compact .eupopup-button {
+	margin: 0 5px;
+}
+
+@media screen and (max-width:1440px) {
+.eupopup-container {padding: 24px 10%;}
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+.eupopup-container {padding: 24px 3%;}
+}
+
+@media screen and (max-width:800px) {
+.eupopup-container-top, .eupopup-container-fixedtop { bottom: 0;}
+.eupopup-container {padding: 24px 5%; display:inherit;font-size: 18px;}
+.eupopup-button { margin: 0;}
+.eupopup-button_1 { margin-left: 20px;font-size: 18px;}
+.eupopup-button_2 {font-size: 18px;}
+}
+
+@media screen and (max-width:600px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

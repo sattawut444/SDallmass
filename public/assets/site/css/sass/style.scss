@@ -1,0 +1,103 @@
+﻿/* CSS For Terabyte net solution
+*  Author : Janejane Suwa http://ajenajen.com
+*  Company : 61sec.com 
+*  Base on Bootstrap v4
+*/
+
+$navy: #011240;
+$main: #011240;
+$green: #49df4a;
+$teal: #00d1cc;
+$bluesky: #02dcff;
+$blue: #024aff;
+$yellow: #ffec3a;
+$lightorange: #ffba1f;
+$orange: #fc4e00;
+$redpink: #ff004a;
+$pink: #ff94f9;
+$black: #000;
+$white: #fff;
+$gray: #999999;
+$lightgray: #d8d8d8;
+$font-light: 'wigrumlight';
+$font-regular: 'wigrumregular'; 
+$font-bold: 'wigrumbold';
+html {
+    font-size: 16px;
+}
+
+// Component
+@import "../sass/text";
+@import "../sass/button";
+@import "../sass/nav";
+@import "../sass/footer";
+@import "../sass/sp-title";
+@import "../sass/sp-header";
+@import "../sass/sp-row";
+@import "../sass/tab";
+
+// Page
+@import "../sass/page/home";
+
+
+body {
+    padding: 0;
+    line-height: normal;
+    font-family: 'webfont2';
+    font-size: 16px;
+
+    &#skrollr-body {
+        height: auto !important;
+    }
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1300px;
+        }
+    }
+}
+
+strong, b {
+    font-weight: normal;
+    font-family: 'webfont3';
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media (max-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+a,
+button {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+img.a { max-width: 100%; }
+
+.animated {
+    animation-duration: 1s;
+}
+.delay-1 {
+animation-delay: .25s;
+}
+.delay-2 {
+animation-delay: .5s;
+}
+.delay-3 {
+animation-delay: .75s;
+}
+.delay-4 {
+animation-delay: 1s;
+}
+

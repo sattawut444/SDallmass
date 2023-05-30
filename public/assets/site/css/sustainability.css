@@ -1,0 +1,75 @@
+.bgSustaina {
+    background: url(../img/sustainability/header.png) no-repeat top center;
+}
+
+.boxTextHeader {
+    padding: 10% 0;
+    padding-bottom: 18%;
+}
+
+.sec01 {
+    background: #fff;
+    padding: 60px;
+}
+
+.sec02 {
+    background: #fff;
+    padding: 0;
+}
+
+.boxTableSustain {
+    overflow: hidden;
+}
+
+.tableSustain {
+    width: 100%;
+}
+
+.tableSustain tr th {
+    padding: 20px;
+    background: #04163A;
+    text-align: center;
+    border: 10px #fff solid;
+    width: 25%;
+}
+
+.tableSustain tr td {
+    padding: 20px;
+    border: 10px #fff solid;
+    background: #C1C9E1;
+    vertical-align: top;
+}
+
+.tableSustain tr td.y {
+    background: #FDF4E5;
+}
+
+.tableSustain tr td.green {
+    background: #C4E2D3;
+}
+
+.tableSustain tr td.b {
+    background: #ACCDEC;
+}
+
+.tableSustain tr td.gray {
+    background: #E3E7F3;
+}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1280px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:737px) {}
+
+@media screen and (max-width:560px) {}
+
+@media screen and (max-width:414px) {}
+
+@media screen and (max-width:375px) {}

@@ -1,0 +1,58 @@
+.bg {
+  /* The image used 
+  background-image: url("../img/about/bg1.jpg");*/
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 62%;
+  overflow:hidden;
+  position:relative;
+}
+
+.sp-row {display: flex;flex-wrap: wrap;}
+.sp-row .col-l {width:40%;}
+.sp-row .col-l img { width:100%; height:auto;}
+.sp-row .col-r {width:60%;}
+.sp-row .col-r .box-text { padding-left:40px; padding-top:100px; padding-bottom:100px;}
+
+
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

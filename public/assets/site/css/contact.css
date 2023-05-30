@@ -1,0 +1,62 @@
+.bgContact {
+    background: url(../img/contact/header-bg.png) no-repeat top center;
+}
+
+.boxTextHeader {
+    padding: 10% 0;
+    padding-bottom: 12%;
+}
+
+.boxContact {
+    padding: 60px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.areaLangContact {
+    font-family: 'WebFont', tahoma;
+    color: #04163A;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 0;
+    background: #EBEBEF;
+    padding: 1px 20px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.boxTelContact {
+    padding: 20px;
+    border: 1px solid #04163A;
+    border-radius: 20px;
+}
+
+.btnMail {
+    background: #051941;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff !important;
+}
+
+.footerBottom {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1280px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:737px) {}
+
+@media screen and (max-width:560px) {}
+
+@media screen and (max-width:414px) {}
+
+@media screen and (max-width:375px) {}

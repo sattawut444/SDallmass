@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  if($("#features-container").length){
+    $(".nav-item:eq(0)").addClass("active");
+  }
+  if($(".portfolio").length){
+    $(".nav-item:eq(1)").addClass("active");
+  }
+  if($(".category-labs").length){
+    $(".nav-item:eq(2)").addClass("active");
+  }
+  if($(".content-container.about").length){
+    $(".nav-item:eq(3)").addClass("active");
+  }
+  if($(".content-container.contact").length){
+    $(".nav-item:eq(4)").addClass("active");
+  }
+});

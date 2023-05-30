@@ -1,0 +1,65 @@
+.row-title-flex { display: flex;flex-wrap: wrap;align-items: baseline; margin-bottom:20px;}
+.row-title-flex .txt-col-left {flex: 73%;}
+.row-title-flex .txt-col-left h1 {font-family:"DB_Heavent", Tahoma, Geneva, sans-serif; font-size:30px; line-height:30px; color:#fff; font-weight:normal;}
+.row-title-flex .txt-col-left h1 span {font-size:50px; line-height:50px; color:#f8c300;}
+.row-title-flex .txt-col-right { flex: 27%; text-align:right; font-family: "DB_Heavent", Tahoma, Geneva, sans-serif; font-size: 18px; line-height: 18px;  font-weight: normal; color: #fff;}
+
+
+.row-title-flex-2 { display: flex;flex-wrap: wrap;align-items: baseline; margin-bottom:20px;}
+.row-title-flex-2 .txt-col-left {flex: 100%;}
+.row-title-flex-2 .txt-col-left h2 {font-family:"DB_Heavent", Tahoma, Geneva, sans-serif; font-size:40px; line-height:40px; color:#f8c300; font-weight:normal;}
+.row-title-flex-2 .txt-col-right { flex: 27%; text-align:right; font-family: "DB_Heavent", Tahoma, Geneva, sans-serif; font-size: 18px; line-height: 18px;  font-weight: normal; color: #fff;}
+.row-title-flex-2 .txt-col-left .text { margin: 10px 0 0 0; color: #FFF; font-family:"DB_Heavent", Tahoma, Geneva, sans-serif; font-size:24px;}
+.row-title-flex-2 .txt-col-left .text a { color: #FFF;}
+.row-title-flex-2 .txt-col-left .textlink { margin: 10px 0 0 0; color: #FFF; font-family:"DB_Heavent", Tahoma, Geneva, sans-serif; font-size:24px;}
+.row-title-flex-2 .txt-col-left .textlink a { color: #FFF; text-decoration: underline; background: #f8c300;}
+
+.sp-slider { margin-bottom:40px;}
+
+ul.product { list-style:none; padding:0; margin:0; margin-bottom:60px; display: flex; flex-wrap:wrap; align-items: stretch;}
+ul.product li {width:25%; height: 100%;}
+ul.product li .box-product {background:#fff; border-radius:3px; text-align:center; margin:5px; padding:10px 15px 15px 15px; position: relative;}
+ul.product li .box-product a { display: block; overflow: hidden;}
+ul.product li .box-product a img {width:100%;}
+ul.product li .box-product .product-name1 {font-family:"DB_Heavent", Tahoma, Geneva, sans-serif; font-size:22px; line-height:22px; color:#222; font-weight: bold; text-align:center;}
+ul.product li .box-product .product-name2 {font-family:"DB_Heavent", Tahoma, Geneva, sans-serif; font-size:20px; line-height:20px; color:#222; font-weight:normal; text-align:center;}
+
+ul.product li .box-product .rating-col { /*flex: 35%; text-align:right;*/ position:absolute; right: 0; top: -5px;}
+ul.product li .box-product .rating-col img { max-width:100%;}
+ul.product li .box-product .rating-col span { display: block; width: 100%; padding: 0 0 0 11px; position: absolute; bottom: 15px; text-align: center; color: #FFF; font-family:Tahoma; font-size:12px; font-weight: normal;}
+
+@media screen and (max-width:1440px) {
+
+}
+
+@media screen and (max-width:1366px) {
+
+}
+
+@media screen and (max-width:1280px) {
+
+}
+
+@media screen and (max-width:1024px) {
+  ul.product li {width:50%; height: 100%;}
+}
+
+@media screen and (max-width:768px) {
+  ul.product li {width:100%; height: 100%;}
+}
+
+@media screen and (max-width:737px) {
+
+}
+
+@media screen and (max-width:560px) {
+
+}
+
+@media screen and (max-width:414px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+}

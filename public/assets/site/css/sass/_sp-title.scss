@@ -1,0 +1,44 @@
+.sp-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    h2 {
+        font-family: 'webfont1';
+        font-size: 24px;
+        line-height: 24px;
+        color: #000;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin: 10px 0;
+        display: inline-block;
+        padding: 0 10px;
+        background: #fff;
+        span {
+            font-size: 50px;
+            line-height: 48px;
+            color: #ee2d24;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+    }
+    .sp-solid {
+        width: 80%;
+        border-bottom: 2px solid #ececec;
+        margin: 0 auto;
+        margin-top: -28px;
+        z-index: 1;
+    }
+    @media screen and (max-width:768px) {
+        h2 {
+            font-size: 20px;
+            line-height: 20px;
+            span {
+                font-size: 40px;
+                line-height: 38px;
+            }
+        }
+        .sp-solid {
+            display: none;
+        }
+    }
+}
